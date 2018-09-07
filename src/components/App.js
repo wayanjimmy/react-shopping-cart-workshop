@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import { getAllProducts } from './mockApi/products';
-import Navbar from './components/Navbar';
-import Product from './components/Product';
-import ShoppingCart from './components/ShoppingCart';
+import { getAllProducts } from '../mockApi/products';
+import Navbar from './Navbar';
+import Product from './Product';
+import ShoppingCart from './ShoppingCart';
 
 class App extends Component {
   state = {
