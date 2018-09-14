@@ -10,6 +10,7 @@ Workshop membuat shopping cart menggunakan React, [Create React App](https://git
 4. Conditional render
 5. Ajax Request dengan `fetch()`
 6. List render
+7. Deploy ke [Netlify](https://netlify.com)
 
 ## Cara menjalankan project
 
