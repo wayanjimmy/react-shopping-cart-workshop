@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar" aria-label="main navigation">
+      <div class="navbar-brand"><a class="navbar-item" href="https://bulma.io"><img src="https://bulma.io/images/bulma-logo.png"
+            alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"></a><a role="button" class="navbar-burger"
+          aria-label="menu" aria-expanded="false"><span aria-hidden="true"></span><span aria-hidden="true"></span><span
+            aria-hidden="true"></span></a></div>
+      <div class="navbar-end"><a class="navbar-item">Home</a></div>
+    </nav>
+    <div class="columns">
+      <div class="column is-two-thirds">
+        <div>
+          <h3 class="title">Our Products</h3>
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img alt="Sepatu Converse" src="https://images.nike.com/is/image/DotCom/PDP_HERO/132170C_001_A_PREM/converse-chuck-taylor-all-star-leather-unisex-high-top-shoe.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Sepatu Converse</p>
+                      <div class="content">aman<br></div>
+                      <h5>Rp 3.050</h5><button class="button is-primary">Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img alt="Vans" src="https://media.journeys.com/images/products/1_259094_ZM.JPG"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Vans</p>
+                      <div class="content">aman<br></div>
+                      <h5>Rp 2.000</h5><button class="button is-primary">Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3"><img alt="New Balance" src="https://media.endclothing.com/media/f_auto,q_auto,w_760,h_760/prodmedia/media/catalog/product/0/5/05-07-2017_newbalance_u520avintage_blue_u520ab_eh_1.jpg"></figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">New Balance</p>
+                      <div class="content">aman<br></div>
+                      <h5>Rp 550</h5><button class="button is-primary">Add To Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <h3 class="title is-4">Shopping Cart</h3>
+        <table class="table is-fullwidth">
+          <thead>
+            <tr>
+              <th>Item Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>New Balance</td>
+              <td>550</td>
+              <td>1</td>
+              <td><button class="button is-danger is-small">-</button></td>
+            </tr>
+            <tr>
+              <td>Vans</td>
+              <td>2000</td>
+              <td>1</td>
+              <td><button class="button is-danger is-small">-</button></td>
+            </tr>
+          </tbody>
+        </table>G
+        <h3>Total : Rp 0</h3>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
