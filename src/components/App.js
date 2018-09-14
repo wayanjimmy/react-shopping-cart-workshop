@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import { getAllProducts } from '../mockApi/products';
 import Navbar from './Navbar';
 import Product from './Product';
 import ShoppingCart from './ShoppingCart';
@@ -50,9 +49,9 @@ class App extends Component {
 
   componentDidMount() {
     this.setState({ isLoading: true });
-    getAllProducts().then(products =>
-      this.setState({ isLoading: false, products })
-    );
+    fetch('https://product-list.glitch.me/')
+      .then(res => res.json())
+      .then(products => this.setState({ products, isLoading: false }));
   }
 
   render() {
