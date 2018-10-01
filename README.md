@@ -2,6 +2,9 @@
 
 Workshop membuat shopping cart menggunakan React, [Create React App](https://github.com/facebookincubator/create-react-app).
 
+- [Slides](https://devcbali-reactjs-workshop-0918.netlify.com)
+- [Demo](https://react-shopping-cart-workshop.netlify.com)
+
 ## Yang akan dipelajari
 
 1. Functional dan Class Component
